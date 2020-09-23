@@ -148,10 +148,11 @@ footer{
 }
 #linkedin{
     color: #212529;
-    font-size: 2rem;
+    font-size: 3rem;
+    padding-bottom: 10rem;
 }
 #linkedin:hover {
-	color: rgb(85, 82, 230);
+	color: rgb(67, 114, 108);
 }
 
 #info-me::before {
