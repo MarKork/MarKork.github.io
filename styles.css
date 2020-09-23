@@ -217,6 +217,7 @@ footer{
     }
     h3{
         margin-top: 0.5rem;
+        font-weight: bold;
     }
     .container{
         padding-left:0;
@@ -226,9 +227,6 @@ footer{
     }
     .centered {
         top: 70%;
-    }
-    h3{
-        font-weight: bolder;
     }
 }
 
