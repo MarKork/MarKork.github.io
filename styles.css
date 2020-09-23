@@ -224,9 +224,12 @@ footer{
     .navbar-nav{
         margin-left: 0;
     }
+    .centered {
+        top: 50%;
+    }
 }
 
-@media only screen and (max-width: 610px){
+@media only screen and (max-width: 576px){
     #project-img{
         max-width: 250px;
     }
@@ -249,7 +252,7 @@ footer{
         letter-spacing: 5px;
     }
     .centered {
-        top: 50%;
+        top: 30%;
     }
     h3{
         font-weight: bold;
