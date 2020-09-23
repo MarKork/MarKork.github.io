@@ -245,8 +245,8 @@ footer{
     ul{
         margin-left: 2rem;
     }
-    #text{
+    .text{
         letter-spacing: 0;
     }
-    
+
 }
