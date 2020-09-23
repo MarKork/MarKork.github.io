@@ -226,7 +226,7 @@ footer{
     }
 }
 
-@media only screen and (max-width: 598px){
+@media only screen and (max-width: 610px){
     #project-img{
         max-width: 250px;
     }
