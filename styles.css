@@ -253,7 +253,27 @@ footer{
     }
     
     h3{
-        font-weight: bold;
+        font-weight: bolder;
+    }
+    #info-me::before {
+        height:      475px;
+        margin-top: -475px;
+    }
+    
+    #my-projects::before {
+        height:      290px;
+        margin-top: -290px;
+    }
+    #work-exp-link::before {
+        height:      240px;
+        margin-top: -240px;
+    }
+    #education-link::before {
+        content: '';
+        display: block;
+        height:      240px;
+        margin-top: -240px;
+        visibility: hidden;
     }
 
 }
