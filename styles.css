@@ -246,7 +246,7 @@ footer{
         margin-left: 2rem;
     }
     .text{
-        letter-spacing: 0;
+        letter-spacing: 5px;
     }
 
 }
