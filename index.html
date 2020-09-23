@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top"> 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#info-me">Tietoa minusta</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#my-projects">Projektejani</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#work-exp-link">Työkokemukseni</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#education-img">Koulutukseni</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Yhteystiedot</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="top-image"> 
+  <div class="bgimg"></div>
+  <div class="centered"><h1>Mari Korkka</h1></div>
+</div>
+
+<div class="container-fluid" >
+
+  <div class="row p-2 mb-2 mt-5 ml-5 mr-5">
+    
+    <div class="col-sm-4 pt-5 text-center">
+      <img  src="./images/omakuva.png"/>
+    </div>
+
+    <div class="col-sm-8 text-center">
+      <h2 id="info-me">Tietoa minusta</h2>
+      <p>Etsin parhaillaan työtä tai harjoittelupaikkaa fullstack-kehittäjänä. Minulla on työkokemusta ohjelmistotestauksesta ja musiikinopetuksesta.</p>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4 pr-0 text-center">
+          <h3>Ohjelmointikielet:</h3>
+          <ul id="languages">
+            <li>Javascript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>PHP</li>
+            <li>C</li>
+            <li>C++</li>
+          </ul>
+        </div>
+        <div class="col-md-4 pl-0 text-center">
+          <h3>Teknologiat, kirjastot ja tietokannat:</h3>
+          <ul>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Bootstrap</li>
+            <li>Wordpress</li>
+            <li>GitHub</li>
+            <li>AWS</li>
+          </ul>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row p-2" id="projects">
+    <div class="col-sm-12 pt-4">
+      <h2  id="my-projects">Projektejani</h2>
+    </div>
+  </div>
+  <div class="row p-2" id="projects2">
+    <div class="container">
+
+      <div class="row p-2">
+        <div class="col-sm-6 text-center p-4" >
+          <h3>Kielikoulutusyrityksen internet-sivut ja ilmoittautumisjärjestelmä</h3>
+          <p>Sovelluksen frontend on toteutettu käyttäen Reactia ja Reactstrapia. Backendissä on käytössä Node.js ja Express. Tietokantana on MongoDB ja kuvat on talletettu AWS-palveluun. Sivuilla on mahdollista selata kurssitietoja, kirjautua käyttäjäksi ja ilmoittautua kursseille.</p>
+        </div>
+      
+        <div class="col-sm-6 text-center p-4">
+          <a href="https://language-center.herokuapp.com/" target="_blank">
+            <img src="./images/language-center.png" id="project-img">
+          </a>
+        </div>
+      </div>
+
+      <div class="row p-2">
+        <div class="col-sm-6 text-center p-4" >
+          <h3 >Sääennuste ja kartta</h3>
+          <p>Sovellus on toteutettu Javascriptilla ja Reactilla käyttäen OpenWeatherMap-rajapintaa. Sovelluksessa on myös mahdollista avata karttanäkymä paikkakunnan valitsemista varten. Tämä osuus on toteutettu käyttäen MapBox-palvelua.</p>
+        </div>
+      
+        <div class="col-sm-6 text-center p-4">
+          <a href="https://5f54921ac1f097d1a1158b6d--tender-lumiere-c889fa.netlify.app/" target="_blank">
+            <img src="./images/sääennuste3.png" id="project-img">
+          </a>
+        </div>
+      </div>
+
+    <div class="row p-2">
+      <div class="col-sm-6 text-center p-4" >
+        <h3 >Satunnainen sitaatti -sovellus</h3>
+        <p>Sovellus on toteutettu Javascriptilla ja Reactilla käyttäen type.fit/api/quotes -rajapintaa</p>
+      </div>
+    
+      <div class="col-sm-6 text-center p-4">
+        <a href="https://markork.github.io/random-quote" target="_blank">
+          <img src="./images/random-quote.png" id="project-img">
+        </a>
+      </div>
+    </div>
+
+    <div class="row p-2">
+      <div class="col-sm-6 text-center p-4">
+        <h3>Kivi-paperi-sakset -peli</h3>
+        <p>Toteutettu Javascriptilla</p>
+      </div>
+    
+      <div class="col-sm-6 text-center p-4">
+        <a href="https://markork.github.io/rock-paper-scissors/index.html" target="_blank">
+          <img src="./images/rock-paper-scissors.png" id="rock-paper-scissors">
+        </a>
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+  <h2 id="work-exp-link"></h2>
+  <div class="row no-gutters p-0">
+    <div class="col-md-6">
+      <div class="block2">
+        <div class="bg"></div>
+        <div class="text">
+            <h2>Työkokemukseni</h2>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-6">
+      <h3 id="work-exp">Työkokemysta yhteensä 9 vuotta ohjelmistotestaajana:</h3>
+      <ul id="job-list">
+        <li>Tietosärmä oy</li>
+        <li>Plenware Oy</li>
+        <li>Cybercom Plenware Oy</li>
+      </ul>
+      <h3 id="work-exp2">Olen toiminut myös musiikkipedagogina opettaen useassa musiikkioppilaitoksessa sekä myös omalla toiminimelläni.</h3>
+    </div>
+  </div>
+
+  <div class="row no-gutters p-0">
+    <div class="col-md-6 p-3" id="education-text">
+      <h3 id="studies">Full-Stack Web Development training program, 12 vk </h3>
+      <p id="expl">Javascript, React, Node.js, MongoDB, AWS <br/>
+        The Shortcut, 2020</p>
+      <h3 id="studies">Moderni web ja ohjelmistokehitys –kurssi, 15 op </h3>
+      <p id="expl">www-sivuston käyttöliittymä, Web-ohjelmointi, Sisällönhallintajärjestelmät <br/>
+        Hämeen ammattikorkeakoulu, 2020</p>
+      <h3 id="studies">opintoja Helsingin Yliopiston avoimessa yliopistossa, 24 op</h3>
+      <p id="expl">Ohjelmoinnin perusteet, Ohjelmoinnin jatkokurssi, Tietokantojen perusteet, Tietokoneen toiminnan perusteet, Full Stack –websovelluskehitys,   Elements of AI: Tekoälyn perusteet<br/>
+        Helsingin Yliopiston avoin yliopisto, 2019-2020</p>
+      <h3 id="studies">Tietojenkäsittelyn erikoisammattitutkinto, ohjelmistosuunnittelija</h3>
+      <p id="expl">C, C++, Visual Basic, SQL ja tietokannat, Java, HTML, tietorakenteet, MS Office<br/>
+        Raision ammatillinen aikuiskoulutuskeskus, 1999-2000
+      </p>
+      <h3 id="m-studies">Lisäksi musiikkipedagogia-tutkinnot Lahden Ammattikorkeakoulusta ja Turun Konservatoriosta sekä opintoja Turun Yliopistossa.</h3>
+    </div>
+  
+    <div class="col-md-6" id="education-img">
+      <div class="block1">
+        <div class="bg"></div>
+        <div class="text2">
+            <h2>Koulutukseni</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div> 
+
+<footer>
+  <div class="text-center p-3" id="contact">
+    <h2 class="subtitle" >Ota yhteyttä</h2>
+    <p>LinkedIn</p>
+  </div>
+</footer>
+
+</body>
+</html>

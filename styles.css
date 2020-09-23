@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    max-width: 100%;
+    background-color: white;
+}
+.block1 .bg{
+    background-image: url("./images/trees.png");
+    height: 100%;
+    background-attachment: fixed;
+    height: 400px;
+    position: relative;
+    
+}
+.block2 .bg{
+    background-image: url("./images/clouds.png");
+    height: 100%;
+    background-attachment: fixed;
+    height: 400px;
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.bgimg {
+    background-image: url("./images/yläkuva.png");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-image{
+    position: static;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#343a40;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.subtitle{
+  text-align: center;
+  padding-top: 20px;
+}
+
+#rock-paper-scissors{
+  border: 2px solid black;
+  border-radius: 10px
+}
+
+#projects{
+    background-color: lightgrey
+}
+
+#projects2{
+    background: linear-gradient(to bottom, lightgrey  0%,  #ffffff 100%)
+}
+h1{
+    font-size: 20px;
+}
+h3{
+    font-size: 15px;
+    margin-top: 1.5em;
+}
+ul{
+    text-align: left;
+    padding-left: 5rem;;
+    list-style-type: "- ";
+}
+#languages{
+    text-align: left;
+    padding-left: 6rem;
+}
+h2{
+    padding-bottom: 10px;
+    text-align: center;
+}
+#work-exp{
+    padding-top: 2rem;
+    padding-left: 5rem;
+}
+#job-list{
+    padding-top: 0.5rem;
+    padding-left: 7rem;
+}
+#work-exp2{
+    padding-top: 0.5rem;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+}
+#studies {
+    padding-left: 1.5rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+#m-studies {
+    padding-left: 1.5rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-weight: normal;
+}
+#expl{
+    padding-left: 30px;
+    font-size: 0.8rem;
+}
+.text2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+footer{
+    background-color: lightgrey;
+}
+#m-studies{
+    padding-top: 0.5rem;
+}
+
+
+#info-me::before {
+    content: '';
+    display: block;
+    height:      75px;
+    margin-top: -75px;
+    visibility: hidden;
+}
+
+#my-projects::before {
+    content: '';
+    display: block;
+    height:      75px;
+    margin-top: -75px;
+    visibility: hidden;
+}
+#work-exp-link::before {
+    content: '';
+    display: block;
+    height:      25px;
+    margin-top: -25px;
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 991px){
+    .col-md-2{
+        max-width: 1%;
+    }
+    .col-md-4{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    #languages{
+        padding-left: 1.5rem;
+    }
+    ul{
+        padding-left: 1.5rem;
+    }
+    p{
+        margin-bottom:0;
+    }
+    #studies{
+        padding-left:0;
+    }
+    #expl{
+        padding-left:0;
+    }
+    #m-studies{
+        padding-left:0;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+    #education-text{
+        order: 2;    
+    }
+    #education-img{
+        order: 1;
+    }
+    
+    ul{
+        margin-left: 5rem;
+    }
+    .col-sm-6{
+        padding-left: 0.5rem!important;
+        padding-right: 0!important;
+    }
+    h3{
+        margin-top: 0.5rem;
+    }
+    .container{
+        padding-left:0;
+    }
+    .navbar-nav{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 598px){
+    #project-img{
+        max-width: 250px;
+    }
+    #rock-paper-scissors{
+        max-width: 250px;
+    }
+    #job-list{
+        padding-left: 2rem;
+    }
+    #work-exp{
+        padding-left: 2rem;
+    }
+    #work-exp2{
+        padding-left: 2rem;
+    }
+    ul{
+        margin-left: 2rem;
+    }
+}
