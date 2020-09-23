@@ -227,6 +227,9 @@ footer{
     .centered {
         top: 70%;
     }
+    h3{
+        font-weight: bolder;
+    }
 }
 
 @media only screen and (max-width: 576px){
