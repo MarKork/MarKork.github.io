@@ -245,4 +245,7 @@ footer{
     ul{
         margin-left: 2rem;
     }
+    #text{
+        letter-spacing: 0;
+    }
 }
